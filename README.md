@@ -1,4 +1,4 @@
-# WebApp boilerplate with React JS
+# Star Wars Blog
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello-webapp.git)
 
 <p align="center">
@@ -100,4 +100,6 @@ Note: You will need to [configure github pages for the branch gh-pages](https://
 
 ## Contributors
 
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
+Created with thanks to:
+https://www.swapi.tech/
+https://starwars-visualguide.com/#/
