@@ -11,21 +11,22 @@ export const Home = () => {
 	const { store } = useContext(Context);
 		return (
 			<>
-				<div className="container">
-					<div className="row">Characters</div>
-					<div className="row cards-row">
-						{/* custom card tag to render all my people, planets, and vehicles */}
-						{store.people.map(person => <Card key ={person.uid} name={person.name}/>)}
+				<body>
+					<div className="container">
+						<h2 className="row">Characters</h2>
+						<div className="row cards-row">
+							{store.people.map((person, index) => <Card key={index} person={person} index={index} type="person"/>)}
+						</div>
+						<h2 className="row">Planets</h2>
+						<div className="row cards-row">
+							{store.planets.map((planet, index) => <Card key={index} planet={planet} index={index} type="planet"/>)}
+						</div>
+						<h2 className="row">Vehicles</h2>
+						<div className="row cards-row">
+							{store.vehicles.map((vehicle, index) => <Card key={index} vehicle={vehicle} index={index} type="vehicle"/>)}
+						</div>
 					</div>
-					<div className="row">Planets</div>
-					<div className="row cards-row">
-						{store.planets.map(planet => <p>{planet.name}</p>)}
-					</div>
-					<div className="row">Vehicles</div>
-					<div className="row cards-row">
-						{store.vehicles.map(vehicle => <p>{vehicle.name}</p>)}
-					</div>
-				</div>
+				</body>
 			</>
 		);
 	};
