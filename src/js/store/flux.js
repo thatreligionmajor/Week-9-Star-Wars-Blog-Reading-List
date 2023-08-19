@@ -4,6 +4,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			people: [],
 			planets: [],
 			vehicles: [],
+			films: [],
 			favorites: []
 		},
 		actions: {
@@ -31,6 +32,12 @@ const getState = ({ getStore, getActions, setStore }) => {
 				let data = await response.json();
 				// console.log(data);
 				setStore({vehicles:data.results});
+			},
+			fetchGetAllFilms: async () => {
+				const response = await fetch("https://swapi.dev/api/films");
+				let data = await response.json();
+				// console.log(data);
+				setStore({films:data.results});
 			},
 			addFavorite: (name) => {
 				const favorites = getStore().favorites

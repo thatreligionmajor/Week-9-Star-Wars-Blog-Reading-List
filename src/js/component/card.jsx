@@ -82,7 +82,7 @@ const Card = (props) => {
         </>
     );
 
-    Card.prototypes = {
+    Card.prototype = {
         name: PropTypes.string
     };
 };

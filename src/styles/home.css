@@ -8,11 +8,29 @@ span {
 }
 h1 {
     color: #FFEF57;
+    margin: 10px;;
+}
+hr {
+    border-top: 3px solid #FFEF57;
+    opacity: 1;
+    width: 100%;
+}
+.cards-row {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.card {
+    margin: 5px;
+}
+.card-img-top {
+    margin-top: 15px;
 }
 
 .card-buttons {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 18px;
 }
 
 .btn-card {

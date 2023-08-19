@@ -1,3 +1,30 @@
 div {
     color: #FFEF57;
 }
+.profile-top {
+    display: flex;
+    background-color: #212529;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+}
+.profile-image {
+    border-right: 3px solid #FFEF57;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.profile-name {
+    margin-left: 1.5%;
+}
+.bio {
+    margin: 1%;
+}
+.col-3 {
+    background-color: #212529;
+    border-right: 2px solid #FFEF57;
+}
+h6 {
+    margin-top: 2%;
+    padding-top: 3%;
+    color: white;
+}
