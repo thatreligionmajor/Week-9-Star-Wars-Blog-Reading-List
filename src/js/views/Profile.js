@@ -20,7 +20,7 @@ const Profile = (props) => {
                 <div className="profile-top">
                     <img 
                     className="profile-image"
-                    src={`https://starwars-visualguide.com/assets/img/characters/${params.index + 1}.jpg`}
+                    src={`https://starwars-visualguide.com/assets/img/characters/${parseInt(params.index) + 1}.jpg`}
                     onError={(e) => {
                         e.target.src = 'https://starwars-visualguide.com/assets/img/placeholder.jpg'
                     }} 
@@ -66,7 +66,7 @@ const Profile = (props) => {
                 <div className="profile-top">
                     <img 
                     className="profile-image"
-                    src={`https://starwars-visualguide.com/assets/img/characters/${params.index + 1}.jpg`}
+                    src={`https://starwars-visualguide.com/assets/img/planets/${parseInt(params.index) + 1}.jpg`}
                     onError={(e) => {
                         e.target.src = 'https://starwars-visualguide.com/assets/img/placeholder.jpg'
                     }} 
@@ -99,7 +99,7 @@ const Profile = (props) => {
             <div className="profile-top">
                 <img 
                 className="profile-image"
-                src={`https://starwars-visualguide.com/assets/img/characters/${params.index + 1}.jpg`}
+                src={`https://starwars-visualguide.com/assets/img/vehicles/${parseInt(params.index) + 1}.jpg`}
                 onError={(e) => {
                     e.target.src = 'https://starwars-visualguide.com/assets/img/placeholder.jpg'
                 }} 

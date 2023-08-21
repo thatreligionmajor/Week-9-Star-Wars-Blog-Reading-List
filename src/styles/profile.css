@@ -28,3 +28,10 @@ h6 {
     padding-top: 3%;
     color: white;
 }
+
+.stats {
+    display: flex;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 15px;
+}

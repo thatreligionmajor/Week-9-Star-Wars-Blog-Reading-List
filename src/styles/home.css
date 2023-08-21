@@ -1,24 +1,30 @@
 body {
     background-image: url("https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1493&q=80");
     background-size: 100%;
-    background-color: black;
+}
+.logo {
+    height: 30px;
 }
 span {
     color: #FFEF57;
 }
-h1 {
+h2 {
     color: #FFEF57;
-    margin: 10px;;
+    margin: 10px;
 }
-hr {
-    border-top: 3px solid #FFEF57;
-    opacity: 1;
-    width: 100%;
+.row-title {
+    border-bottom: 3px solid #FFEF57;
+    padding-bottom: 1rem;
+}
+.rtsub {
+    padding-top: 1rem;
 }
 .cards-row {
     flex-wrap: nowrap;
     overflow-x: scroll;
     scroll-behavior: smooth;
+    padding-bottom: 1rem;
+    
 }
 .card {
     margin: 5px;
@@ -26,13 +32,11 @@ hr {
 .card-img-top {
     margin-top: 15px;
 }
-
 .card-buttons {
     display: flex;
     justify-content: space-between;
     margin-bottom: 18px;
 }
-
 .btn-card {
     background-color: #54608A;
     outline-style: solid 3px;
@@ -40,4 +44,21 @@ hr {
 }
 .btn-card:hover {
     background-color: #3f4a74;
+}
+
+/* scrollbar styles */
+.cards-row::-webkit-scrollbar {
+width: 12px;               /* width of the entire scrollbar */
+height: 10px;              /* height of the entire scrollbar */
+}
+.cards-row::-webkit-scrollbar-track {
+background: transparent;        /* color of the tracking area */
+}
+.cards-row::-webkit-scrollbar-thumb {
+background-color: #FFEF57;    /* color of the scroll thumb */
+border-radius: 20px;       /* roundness of the scroll thumb */
+border: 0px solid transparent;  /* creates padding around scroll thumb */
+}
+.cards-row::-webkit-scrollbar-thumb:active {
+    background-color: #FFC500;
 }
