@@ -44,7 +44,7 @@ const Card = (props) => {
                         <h5 className="card-title">{props.planet.name}</h5>
                         <p className="card-text">Climate: {props.planet.climate}</p>
                         <p className="card-text">Gravity: {props.planet.gravity}</p>
-                        <p className="card-text">Rotation: {props.planet.rotation}</p>
+                        <p className="card-text">Rotation: {props.planet.rotation_period}</p>
                     </div>
                     <div className="card-buttons">
                         <Link to={'/profile/planets/' + props.index} className="btn btn-secondary btn-card">Profile</Link>

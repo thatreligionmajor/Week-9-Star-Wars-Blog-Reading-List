@@ -4,14 +4,13 @@ const getState = ({ getStore, getActions, setStore }) => {
 			people: [],
 			planets: [],
 			vehicles: [],
-			films: [],
 			favorites: []
 		},
 		actions: {
 			// Use getActions to call a function within a fuction
-			exampleFunction: () => {
-				getActions().changeColor(0, "green");
-			},
+			// exampleFunction: () => {
+			// 	getActions().changeColor(0, "green");
+			// },
 			fetchGetAllPeople: () => { //switch this to async await to practice
 				fetch("https://swapi.dev/api/people")
 				.then(response => response.json())	
@@ -33,12 +32,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 				// console.log(data);
 				setStore({vehicles:data.results});
 			},
-			fetchGetAllFilms: async () => {
-				const response = await fetch("https://swapi.dev/api/films");
-				let data = await response.json();
-				// console.log(data);
-				setStore({films:data.results});
-			},
 			addFavorite: (name) => {
 				const favorites = getStore().favorites
 				favorites.push(name)
@@ -52,20 +45,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 					);
 				});
 				setStore({favorites: filteredFavorites})
-			},
-			changeColor: (index, color) => {
-				//get the store
-				const store = getStore();
-
-				//we have to loop the entire demo array to look for the respective index
-				//and change its color
-				const demo = store.demo.map((elm, i) => {
-					if (i === index) elm.background = color;
-					return elm;
-				});
-
-				//reset the global store
-				setStore({ demo: demo });
 			}
 		}
 	};

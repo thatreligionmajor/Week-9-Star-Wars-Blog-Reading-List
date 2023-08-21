@@ -41,20 +41,20 @@ const Profile = (props) => {
                 </div>
                 <div className="row stats">
                     <div className="col-3">
-                        <h6>Appearances</h6>
-                        <div className="profile-data">{item.films}</div>
-                    </div>
-                    <div className="col-3">
-                        <h6>Home World</h6>
-                        <div className="profile-data">{item.homeworld}</div>
-                    </div>
-                    <div className="col-3">
                         <h6>Birth Year</h6>
                         <div className="profile-data">{item.birth_year}</div>
                     </div>
                     <div className="col-3">
-                        <h6>Height</h6>
+                        <h6>Gender</h6>
+                        <div className="profile-data">{item.gender}</div>
+                    </div>
+                    <div className="col-3">
+                        <h6>Height (cm)</h6>
                         <div className="profile-data">{item.height}</div>
+                    </div>
+                    <div className="col-3">
+                        <h6>Mass (kg)</h6>
+                        <div className="profile-data">{item.mass}</div>
                     </div>
                 </div>
             </div>
@@ -86,9 +86,22 @@ const Profile = (props) => {
                     </p>
                 </div>
                 <div className="row stats">
-                    <h6>Appearances</h6>
-                    <div className="profile-data">{item.films}</div>
-                    
+                    <div className="col-3">
+                        <h6>Climate</h6>
+                        <div className="profile-data">{item.climate}</div>
+                    </div>
+                    <div className="col-3">
+                        <h6>Terrain</h6>
+                        <div className="profile-data">{item.terrain}</div>
+                    </div>
+                    <div className="col-3">
+                        <h6>Population</h6>
+                        <div className="profile-data">{item.population}</div>
+                    </div>
+                    <div className="col-3">
+                        <h6>Rotation Period</h6>
+                        <div className="profile-data">{item.rotation_period}</div>
+                    </div>
                 </div>
             </div>
         )
@@ -119,10 +132,23 @@ const Profile = (props) => {
                 </p>
             </div>
             <div className="row stats">
-                <h6>Appearances</h6>
-                <div className="profile-data">{item.films}</div>
-                
-            </div>
+                    <div className="col-3">
+                        <h6>Model</h6>
+                        <div className="profile-data">{item.model}</div>
+                    </div>
+                    <div className="col-3">
+                        <h6>Class</h6>
+                        <div className="profile-data">{item.vehicle_class}</div>
+                    </div>
+                    <div className="col-3">
+                        <h6>Manufacturer Corporation</h6>
+                        <div className="profile-data">{item.manufacturer}</div>
+                    </div>
+                    <div className="col-3">
+                        <h6>Passengers</h6>
+                        <div className="profile-data">{item.passengers}</div>
+                    </div>
+                </div>
         </div>
         )
     ) : null
