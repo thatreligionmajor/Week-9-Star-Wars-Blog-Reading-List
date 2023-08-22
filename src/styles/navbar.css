@@ -2,3 +2,16 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.dropdown-menu {
+    background-color: #54608A;
+    color: white;
+}
+.delete-button {
+    display: inline;
+    background-color: #54608A;
+    outline-style: solid 3px;
+    outline-color: #3f4a74;
+}
+.delete-button:hover {
+    background-color: #3f4a74;
+}

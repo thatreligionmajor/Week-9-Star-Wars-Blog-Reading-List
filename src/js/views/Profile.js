@@ -4,7 +4,6 @@ import { useParams } from "react-router";
 import { Context } from "../store/appContext";
 import "../../styles/profile.css";
 
-
 const Profile = (props) => {
     const{store, actions}=useContext(Context);
     let params = useParams();
