@@ -17,7 +17,7 @@ export const Navbar = () => {
 					<button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
 						Favorites
 					</button>
-					<ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+					<ul className="dropdown-menu dropdown-menu-dark  dropdown-menu-lg-end" aria-labelledby="dropdownMenuButton1">
 						{store.favorites.map((item, index) => {
 							return (
 								<li key={index}>
