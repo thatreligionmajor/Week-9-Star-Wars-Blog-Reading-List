@@ -1,6 +1,6 @@
 # Star Wars Blog
 
-![Site Preview Screenshot](https://private-user-images.githubusercontent.com/112668448/291399010-49c79015-c79f-4078-95fd-a73247f60a25.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI5MzEwNDMsIm5iZiI6MTcwMjkzMDc0MywicGF0aCI6Ii8xMTI2Njg0NDgvMjkxMzk5MDEwLTQ5Yzc5MDE1LWM3OWYtNDA3OC05NWZkLWE3MzI0N2Y2MGEyNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxOFQyMDE5MDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YmIyZjQ4NGUyNTAxODM1ODI0ZWFkMjM5MWRkYzU2MzYwNzZjY2FlZTE4ZDE2OTkzMjgzZjVmMDZlMmZlNjc5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.xAaayhzmwRLKKDhwFFOl2AtINc8w3jY6fCXZ66r2FmQ)
+![Site Preview Screenshot](https://user-images.githubusercontent.com/112668448/291399010-49c79015-c79f-4078-95fd-a73247f60a25.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI5MzEwNDMsIm5iZiI6MTcwMjkzMDc0MywicGF0aCI6Ii8xMTI2Njg0NDgvMjkxMzk5MDEwLTQ5Yzc5MDE1LWM3OWYtNDA3OC05NWZkLWE3MzI0N2Y2MGEyNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxOFQyMDE5MDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YmIyZjQ4NGUyNTAxODM1ODI0ZWFkMjM5MWRkYzU2MzYwNzZjY2FlZTE4ZDE2OTkzMjgzZjVmMDZlMmZlNjc5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.xAaayhzmwRLKKDhwFFOl2AtINc8w3jY6fCXZ66r2FmQ)
 
 <!-- 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello-webapp.git)
@@ -104,8 +104,8 @@ Note: You will need to [configure github pages for the branch gh-pages](https://
 
 -->
 
-## Contributors
+## Special Thanks and Credits
 
 Created with thanks to:
-https://www.swapi.dev/
-https://starwars-visualguide.com/#/
+- https://www.swapi.dev/
+- https://starwars-visualguide.com/#/
